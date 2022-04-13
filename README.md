@@ -18,7 +18,7 @@ Available params:
 
 Example request:
 ```
-curl POST 'localhost:8080/deck/create?cards=AS,AD&shuffle'
+curl --request POST 'localhost:8080/deck/create?cards=AS,AD&shuffle'
 ```
 Return:
 ```
@@ -36,7 +36,7 @@ Available params:
 | id | string | Deck UUID, returned on creation
 Example request:
 ```
-curl --location --request GET 'localhost:8080/deck/open?id=0e03f268-ba94-4842-af0e-68678720282d'
+curl --request GET 'localhost:8080/deck/open?id=0e03f268-ba94-4842-af0e-68678720282d'
 ```
 Return:
 ```
@@ -69,7 +69,7 @@ Available params:
 
 Example request:
 ```
-curl POST 'localhost:8080/deck/draw?id=b929c16b-a13e-495c-a570-2e108c99267d&amount=2'
+curl --request POST 'localhost:8080/deck/draw?id=b929c16b-a13e-495c-a570-2e108c99267d&amount=2'
 ```
 Return:
 ```
