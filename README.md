@@ -34,6 +34,7 @@ Available params:
 | Param | Type | Description
 | ----------- |----------- | ----------- 
 | id | string | Deck UUID, returned on creation
+
 Example request:
 ```
 curl --request GET 'localhost:8080/deck/open?id=0e03f268-ba94-4842-af0e-68678720282d'
